@@ -19,9 +19,6 @@ The flow is organized into two main monitoring areas:
 * **Dedicated OPC UA Status Tracking:** Separates raw network ping checks from **OPC UA** status evaluation, helping distinguish between a host that responds to ping and an OPC UA service/session that is down or degraded.
 * **Insights Infrastructure Feed:** Normalizes device and OPC UA statuses into consistent health states consumed by the Insights infrastructure dashboard.
 
-## 🔒 Security & Sanitization Note
-* Internal IP addresses, hostnames, and proprietary plant identifiers are sanitized/blurred in public screenshots and documentation in accordance with internal security guidelines.
-
 ## 🛠️ Tech Stack
 * **Edge & Integration Runtime:** Node-RED, JavaScript (`function` nodes)
 * **Industrial & Edge Targets:** OPC UA, WinCC, SIMATIC IOT2050, Plant Meters & Servers
